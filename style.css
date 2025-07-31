@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f9f9f9;
-  color: #333;
+  background: #121212;
+  color: #e0e0e0;
 }
 .container {
   display: flex;
@@ -13,8 +13,8 @@ body {
 .sidebar {
   flex: 1;
   padding: 20px;
-  background: #fff;
-  box-shadow: 1px 0 6px rgba(0,0,0,0.1);
+  background: #1f1f1f;
+  box-shadow: 1px 0 6px rgba(0,0,0,0.3);
 }
 .profile-img {
   width: 120px;
@@ -22,49 +22,56 @@ body {
 }
 .subtitle {
   font-weight: bold;
+  color: #ffffff;
 }
 .social-links a {
   display: inline-block;
   margin: 5px 5px 5px 0;
   text-decoration: none;
-  background: #eee;
+  background: #333;
+  color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
 }
 .skills span {
   display: inline-block;
-  background: #e0e0ff;
+  background: #333;
   margin: 3px;
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 0.85rem;
+  color: #fff;
 }
 .main-content {
   flex: 2;
   padding: 30px;
 }
-.projects, .experience, .education {
+.projects, .experience, .education, section {
   margin-bottom: 40px;
 }
-.project-card {
+.project-card, .info-card {
   display: flex;
-  background: #fff;
+  background: #1f1f1f;
   margin-bottom: 20px;
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 5px rgba(0,0,0,0.6);
 }
 .project-card img {
   width: 80px;
   height: 80px;
-  object-fit: contain;
+  object-fit: cover;
   margin-right: 20px;
 }
 .tags span {
   display: inline-block;
-  background: #d0f0d0;
+  background: #2e7d32;
+  color: #fff;
   margin: 3px;
   padding: 4px 8px;
   border-radius: 4px;
   font-size: 0.8rem;
+}
+.info-card {
+  flex-direction: column;
 }
