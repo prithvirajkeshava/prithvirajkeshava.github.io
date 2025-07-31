@@ -1,39 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Prithviraj Keshava | Data Analyst</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Prithviraj Keshava</h1>
-    <p>Data Analyst | Python • SQL • Power BI</p>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="experience.html">Experience</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-  <main>
-    <section>
-      <h2>About Me</h2>
-      <p>Aspiring Data Analyst with expertise in automating reports, visualizing data, and building dashboards. Curious problem-solver with a foundation in database management and AR/VR development.</p>
-    </section>
-    <section>
-      <h2>Skills</h2>
-      <ul>
-        <li><strong>Languages:</strong> Python, SQL</li>
-        <li><strong>Data Viz:</strong> Power BI, Tableau, Seaborn, Matplotlib</li>
-        <li><strong>Data Tools:</strong> Pandas, Numpy, MySQL</li>
-        <li><strong>Soft Skills:</strong> Communication, Team Collaboration</li>
-      </ul>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2025 Prithviraj Keshava</p>
-  </footer>
+  <div class="container">
+    <aside class="sidebar">
+      <img src="images/profile.jpg" alt="Profile Photo" class="profile-img"/>
+      <h1>Prithviraj Keshava</h1>
+      <p class="subtitle">Data Analyst</p>
+      <p class="location">📍 Bangalore, India</p>
+      <div class="social-links">
+        <a href="#" title="GitHub">GitHub</a>
+        <a href="mailto:prithvirajkeshava@gmail.com">Email me</a>
+      </div>
+      <section>
+        <h2>About</h2>
+        <p>Aspiring data analyst with strong skills in Python, SQL, and Power BI. Passionate about solving real-world problems through data.</p>
+      </section>
+      <section>
+        <h2>Skills</h2>
+        <div class="skills">
+          <span>Python</span><span>SQL</span><span>Power BI</span><span>Tableau</span>
+          <span>Excel</span><span>Data Wrangling</span><span>Statistics</span>
+        </div>
+      </section>
+    </aside>
+    <main class="main-content">
+      <section class="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Power_BI_logo.svg" alt="Project Thumbnail">
+          <div>
+            <h3>Stock & Economic Dashboard</h3>
+            <p>Real-time Power BI dashboard tracking stock performance and macroeconomic indicators using Python & APIs.</p>
+            <div class="tags"><span>Power BI</span><span>Python</span><span>Google Sheets</span></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Scikit_learn_logo_small.svg" alt="Project Thumbnail">
+          <div>
+            <h3>End-to-End ML Pipeline</h3>
+            <p>Built with Flask, Scikit-learn, CatBoost, and deployed on AWS for real-time model inference.</p>
+            <div class="tags"><span>Scikit-learn</span><span>Flask</span><span>AWS</span></div>
+          </div>
+        </div>
+      </section>
+      <section class="experience">
+        <h2>Experience</h2>
+        <div>
+          <h3>Data Analyst Intern - Analogica</h3>
+          <p>Automated reporting, cleaned datasets, and built dashboards with Power BI and SQL.</p>
+        </div>
+      </section>
+      <section class="education">
+        <h2>Education</h2>
+        <p><strong>B.E., Information Science</strong><br/>MS Ramaiah Institute of Technology, 2015–2019</p>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
